@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html lang="en" data-theme="void">
+<html lang="en" data-theme="VIVID">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VOID · monochrome apparel · raw essentials</title>
+  <title>VIVID · monochrome apparel · raw essentials</title>
   <!-- Typography: sharp grotesk + geometric -->
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
   <!-- Font Awesome 6 -->
@@ -34,7 +34,7 @@
       --radius-card: 0px;
     }
 
-    [data-theme="void-light"] {
+    [data-theme="VIVID-light"] {
       --bg: #f5f5f5;
       --surface: #ffffff;
       --surface-elevated: #fafafa;
@@ -62,7 +62,7 @@
     ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 0px; }
 
     /* header — minimal */
-    .void-header {
+    .VIVID-header {
       position: fixed;
       width: 100%;
       top: 0;
@@ -72,7 +72,7 @@
       border-bottom: 1px solid var(--accent);
       transition: var(--transition);
     }
-    [data-theme="void-light"] .void-header {
+    [data-theme="VIVID-light"] .VIVID-header {
       background: rgba(245, 245, 245, 0.96);
     }
 
@@ -163,8 +163,8 @@
       right: -14px;
     }
 
-    /* hero — void */
-    .hero-void {
+    /* hero — VIVID */
+    .hero-VIVID {
       min-height: 92vh;
       display: flex;
       align-items: center;
@@ -173,7 +173,7 @@
       background-size: cover;
       background-position: 50% 40%;
     }
-    .hero-void::after {
+    .hero-VIVID::after {
       content: '';
       position: absolute;
       inset: 0;
@@ -234,7 +234,7 @@
       color: #000000;
       border-radius: 0px;
     }
-    [data-theme="void-light"] .btn-primary {
+    [data-theme="VIVID-light"] .btn-primary {
       color: #ffffff;
       background: #000000;
     }
@@ -324,7 +324,7 @@
       transition: 0.2s;
       color: #000000;
     }
-    [data-theme="void-light"] .quick-add button {
+    [data-theme="VIVID-light"] .quick-add button {
       color: #ffffff;
       background: #000000;
     }
@@ -464,7 +464,7 @@
       color: var(--text);
     }
     .quantity-btn:hover { background: var(--accent); color: #000; }
-    [data-theme="void-light"] .quantity-btn:hover { color: #fff; }
+    [data-theme="VIVID-light"] .quantity-btn:hover { color: #fff; }
     .remove-item {
       position: absolute;
       top: 12px;
@@ -501,7 +501,7 @@
       transition: 0.2s;
       color: #000000;
     }
-    [data-theme="void-light"] .checkout-btn {
+    [data-theme="VIVID-light"] .checkout-btn {
       color: #ffffff;
       background: #000000;
     }
@@ -558,7 +558,7 @@
       backdrop-filter: blur(20px);
       transition: opacity 0.25s ease;
     }
-    .void-modal {
+    .VIVID-modal {
       background: var(--surface);
       max-width: 540px;
       width: 100%;
@@ -625,7 +625,7 @@
       cursor: pointer;
       color: #000000;
     }
-    [data-theme="void-light"] .btn-modal-primary {
+    [data-theme="VIVID-light"] .btn-modal-primary {
       color: #ffffff;
       background: #000000;
     }
@@ -652,28 +652,28 @@
 </head>
 <body>
 
-<!-- ENTRY MODAL - VOID INVITATION -->
+<!-- ENTRY MODAL - VIVID INVITATION -->
 <div id="entryModal" class="modal-overlay">
-  <div class="void-modal">
+  <div class="VIVID-modal">
     <button id="closeModalBtn" class="modal-close-icon"><i class="fa-regular fa-circle"></i></button>
     <div class="modal-icon-badge"><i class="fas fa-circle"></i></div>
-    <h2 class="modal-title">VOID</h2>
-    <p class="modal-description">Monochrome apparel for the raw minimalist. Essential silhouettes, zero embellishment, and the purity of form. Enter the void.</p>
+    <h2 class="modal-title">VIVID</h2>
+    <p class="modal-description">Monochrome apparel for the raw minimalist. Essential silhouettes, zero embellishment, and the purity of form. Enter the VIVID.</p>
     <div class="modal-buttons">
-      <button id="enterBtn" class="btn-modal-primary">ENTER THE VOID</button>
+      <button id="enterBtn" class="btn-modal-primary">ENTER THE VIVID</button>
       <button id="laterBtn" class="btn-modal-secondary">WANDER LATER</button>
     </div>
   </div>
 </div>
 
-<header class="void-header">
+<header class="VIVID-header">
   <div class="nav-container">
-    <div class="brand">VOID<span> · monochrome</span></div>
+    <div class="brand">VIVID<span> · monochrome</span></div>
     <nav class="nav-links">
       <a href="#shop">RAW</a>
       <a href="#shop">ESSENTIALS</a>
       <a href="#shop">LAYERS</a>
-      <a href="#">VOID</a>
+      <a href="#">VIVID</a>
     </nav>
     <div class="utility-actions">
       <button id="themeToggle">🌙</button>
@@ -686,18 +686,18 @@
 </header>
 
 <main>
-  <section class="hero-void">
+  <section class="hero-VIVID">
     <div class="hero-content">
       <div class="hero-sub">MONOCHROME · RAW · ESSENTIAL</div>
-      <h1 class="hero-main-title">VOID</h1>
+      <h1 class="hero-main-title">VIVID</h1>
       <div class="hero-offer">First descent: <strong>15% off</strong> your first essential garment</div>
-      <a href="#shop" class="btn-primary">ENTER THE VOID →</a>
+      <a href="#shop" class="btn-primary">ENTER THE VIVID →</a>
     </div>
   </section>
 
   <div class="collection-badge" id="shop">
     <h2>Monochromatic Edit · Raw Essentials</h2>
-    <p>12 void garments</p>
+    <p>12 VIVID garments</p>
   </div>
 
   <div class="grid-shop" id="productGrid"></div>
@@ -705,9 +705,9 @@
 
 <footer>
   <div class="footer-inner">
-    <div class="footer-logo">VOID</div>
+    <div class="footer-logo">VIVID</div>
     <div class="footer-locations">TOKYO · BERLIN · COPENHAGEN · SEOUL</div>
-    <p class="copyright" style="font-size:0.55rem; opacity:0.7;">© 2026 VOID — purity in absence.</p>
+    <p class="copyright" style="font-size:0.55rem; opacity:0.7;">© 2026 VIVID — purity in absence.</p>
   </div>
 </footer>
 
@@ -715,24 +715,24 @@
 <div id="cartOverlay" class="cart-overlay">
   <div class="cart-sidebar">
     <div class="cart-header">
-      <h3>VOID CART</h3>
+      <h3>VIVID CART</h3>
       <button class="close-cart" id="closeCartBtn"><i class="fas fa-times"></i></button>
     </div>
     <div class="cart-items" id="cartItemsContainer">
-      <div class="empty-cart">The void awaits.<br>Add essential garments.</div>
+      <div class="empty-cart">The VIVID awaits.<br>Add essential garments.</div>
     </div>
     <div class="cart-footer" id="cartFooter" style="display: none;">
       <div class="cart-total">
         <span>Total (USD)</span>
         <span id="cartTotalPrice">$0</span>
       </div>
-      <button class="checkout-btn" id="checkoutBtn">◼ VOID CHECKOUT ◼</button>
+      <button class="checkout-btn" id="checkoutBtn">◼ VIVID CHECKOUT ◼</button>
     </div>
   </div>
 </div>
 
 <script>
-  // VOID COLLECTION — monochrome minimalist essentials
+  // VIVID COLLECTION — monochrome minimalist essentials
   const products = [
     { id: 1, name: "Raw Cotton Crew", category: "TOP", original: 58, discountPrice: 49, img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1480&auto=format&fit=crop", alt: "crew neck" },
     { id: 2, name: "Oversized Tee", category: "TOP", original: 48, discountPrice: 40, img: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=1374&auto=format&fit=crop", alt: "oversized tee" },
@@ -758,9 +758,9 @@
   const cartTotalPriceSpan = document.getElementById('cartTotalPrice');
   const cartCountSpan = document.getElementById('cartCount');
 
-  function saveCart() { localStorage.setItem('VOID_Cart', JSON.stringify(cart)); }
+  function saveCart() { localStorage.setItem('VIVID_Cart', JSON.stringify(cart)); }
   function loadCart() {
-    const saved = localStorage.getItem('VOID_Cart');
+    const saved = localStorage.getItem('VIVID_Cart');
     if (saved) { cart = JSON.parse(saved); }
     renderCartUI();
     updateCartCount();
@@ -770,7 +770,7 @@
   function renderCartUI() {
     if (!cartItemsContainer) return;
     if (cart.length === 0) {
-      cartItemsContainer.innerHTML = '<div class="empty-cart">The void awaits.<br>Add essential garments.</div>';
+      cartItemsContainer.innerHTML = '<div class="empty-cart">The VIVID awaits.<br>Add essential garments.</div>';
       cartFooter.style.display = 'none';
       updateCartCount(); saveCart(); return;
     }
@@ -817,7 +817,7 @@
     else cart.push({id:prod.id, name:prod.name, price:prod.discountPrice, quantity:1, img:prod.img});
     renderCartUI();
     const btn = document.querySelector(`.add-btn-${pid}`);
-    if(btn){ let old = btn.innerText; btn.innerText="✓ VOID"; setTimeout(()=>btn.innerText=old,700);}
+    if(btn){ let old = btn.innerText; btn.innerText="✓ VIVID"; setTimeout(()=>btn.innerText=old,700);}
     cartOverlay.classList.add('active');
   }
 
@@ -832,7 +832,7 @@
       card.innerHTML=`
         <div class="tile-img">
           <img src="${p.img}" alt="${p.alt||p.name}" loading="lazy">
-          <div class="quick-add"><button class="add-btn-${p.id} add-to-cart-btn" data-id="${p.id}">◼ ADD TO VOID</button></div>
+          <div class="quick-add"><button class="add-btn-${p.id} add-to-cart-btn" data-id="${p.id}">◼ ADD TO VIVID</button></div>
         </div>
         <div class="product-info">
           <div class="product-details"><h4>${p.category}</h4><h3>${p.name}</h3></div>
@@ -845,20 +845,20 @@
 
   // theme
   function initTheme(){
-    const stored = localStorage.getItem('VOID_theme');
+    const stored = localStorage.getItem('VIVID_theme');
     const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     let theme = stored || (systemDark ? 'dark' : 'light');
-    document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'void' : 'void-light');
+    document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'VIVID' : 'VIVID-light');
     const toggle = document.getElementById('themeToggle');
     if(toggle) toggle.textContent = theme === 'dark' ? '☀️' : '🌙';
   }
   function toggleThemeUI(){
     const curr = document.documentElement.getAttribute('data-theme');
-    const next = curr === 'void' ? 'void-light' : 'void';
+    const next = curr === 'VIVID' ? 'VIVID-light' : 'VIVID';
     document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('VOID_theme', next === 'void' ? 'dark' : 'light');
+    localStorage.setItem('VIVID_theme', next === 'VIVID' ? 'dark' : 'light');
     const toggleBtn = document.getElementById('themeToggle');
-    if(toggleBtn) toggleBtn.textContent = next === 'void' ? '☀️' : '🌙';
+    if(toggleBtn) toggleBtn.textContent = next === 'VIVID' ? '☀️' : '🌙';
   }
 
   // modal entry
@@ -874,7 +874,7 @@
   cartIcon?.addEventListener('click',()=>cartOverlay.classList.add('active'));
   closeCartBtn?.addEventListener('click',()=>cartOverlay.classList.remove('active'));
   cartOverlay?.addEventListener('click',(e)=>{ if(e.target===cartOverlay) cartOverlay.classList.remove('active'); });
-  document.getElementById('checkoutBtn')?.addEventListener('click',()=>{ alert('Thank you for entering the void. Your essential garments embody raw minimalism.'); cart=[]; renderCartUI(); cartOverlay.classList.remove('active'); });
+  document.getElementById('checkoutBtn')?.addEventListener('click',()=>{ alert('Thank you for entering the VIVID. Your essential garments embody raw minimalism.'); cart=[]; renderCartUI(); cartOverlay.classList.remove('active'); });
   document.querySelectorAll('a[href^="#"]').forEach(a=>{ a.addEventListener('click',function(e){ const t=this.getAttribute('href'); if(t==="#") return; const sec=document.querySelector(t); if(sec){ e.preventDefault(); sec.scrollIntoView({behavior:'smooth'}); } }); });
 
   renderProducts();
